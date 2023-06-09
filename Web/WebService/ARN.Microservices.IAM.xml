@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ARN.Microservices.WebApplication</name>
+    </assembly>
+    <members>
+        <member name="M:ARN.Microservices.WebApplication.UseCase.Resturant.EggOmeletController.TestAction">
+            <summary>
+            Controller: EggOmelet
+            Action: TestAction
+            Context: Any user can get EggOmeletController info
+            </summary>
+            <returns></returns>
+            <response code="200">Success</response>
+            <response code="400">
+            Invalid payload
+            </response>
+        </member>
+    </members>
+</doc>
